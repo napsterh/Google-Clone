@@ -86,14 +86,26 @@ main .main-input input {
     outline: none;
 }
 
-main .main-input-container .search-icon {
-    border: 1px solid green;
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
 }
 
-main .main-input-container .text {
-    border: 1px solid red;
+main .main-input-container .search-icon {
+    background-image: url("https://cdn1.iconfinder.com/data/icons/menu-3-3/32/google_search_glass-512.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
 }
 
 main .main-input-container .micro-icon {
-    border: 1px solid blue;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/512px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
 }
